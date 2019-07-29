@@ -1,3 +1,5 @@
+#ifndef HEADER_H
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -18,3 +20,4 @@ Position FindMin(Position);
 Position FindMax(Position);
 int PrintTree(Position);
 int GarbageCollector(Position);
+#endif
