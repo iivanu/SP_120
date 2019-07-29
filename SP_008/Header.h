@@ -1,3 +1,5 @@
+#ifndef
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -27,3 +29,4 @@ int pushStack(Position, position);
 int MakeDirectory(Position, char*);
 int ListDirectory(Position);
 int GarbageCollector(Position);
+#endif
