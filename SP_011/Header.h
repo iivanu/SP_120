@@ -1,3 +1,5 @@
+#ifndef HEADER_H
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -29,3 +31,4 @@ int PrintElement(position, int);
 int FindStudent(Position, char*, char*);
 int GarbageCollectorHash(Position);
 int GarbageCollectorList(position);
+#endif
