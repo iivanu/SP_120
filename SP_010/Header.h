@@ -1,3 +1,5 @@
+#ifndef HEADER_H
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -27,3 +29,4 @@ Position popStack(position);
 int operation(position, char*);
 int PrintTree(Position);
 int GarbageCollector(Position);
+#endif
