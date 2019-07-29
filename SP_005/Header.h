@@ -1,3 +1,5 @@
+#ifndef
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,3 +18,4 @@ int Section(Position, Position, Position);
 int PrintList(Position);
 int PrintEl(Position);
 int GarbageCollector(Position);
+#endif
