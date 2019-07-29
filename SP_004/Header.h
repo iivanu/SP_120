@@ -1,3 +1,5 @@
+#ifndef
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,3 +19,4 @@ int PolyMulty(Position, Position, Position);
 int PrintList(Position);
 int PrintEl(Position);
 int GarbageCollector(Position);
+#endif
