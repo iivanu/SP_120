@@ -1,3 +1,5 @@
+#ifndef
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -26,3 +28,4 @@ int AddBefore(Position, char*);
 Position Sort(Position);
 int Export(Position);
 int Import(Position);
+#endif
