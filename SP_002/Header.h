@@ -1,3 +1,5 @@
+#ifndef
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,3 +23,4 @@ int PrintOne(Position);
 Position FindEl(Position, char*);
 int DeleteEl(Position, char*);
 int GarbageCollector(Position);
+#endif
