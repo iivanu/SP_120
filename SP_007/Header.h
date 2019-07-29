@@ -1,3 +1,5 @@
+#ifndef
+#define HEADER_H
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,3 +17,4 @@ int push(Position, int);
 int pop(Position);
 int GarbageCollector(Position);
 Position Allocation();
+#endif
